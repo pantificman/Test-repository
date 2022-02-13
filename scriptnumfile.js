@@ -85,7 +85,7 @@ for (let i = 1; i < 8; i++){
 
 // Код возьмите из предыдущего домашнего задания
 
-const numberOfFilms = prompt('Сколько фильмов вы уже посмотрели?',"");
+/* const numberOfFilms = prompt('Сколько фильмов вы уже посмотрели?',"");
 
 let personalMovieDB = {
     count:numberOfFilms,
@@ -118,4 +118,18 @@ if (personalMovieDB.count < 10){
     console.log("ошибка");
 }
 
-console.log(personalMovieDB);
+console.log(personalMovieDB); */
+
+/* function fun() {
+    let num=50;
+    return num;
+}
+const anotherNum = fun();
+console.log(anotherNum);
+
+const calcl = (a , b) => a+b;
+
+const calc = (a , b) => {
+return a+b;
+}; */
+window.crypto.getRandomValues(100);
