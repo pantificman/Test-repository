@@ -156,6 +156,7 @@ function start(){
     numberOfFilms = prompt('Сколько фильмов вы уже посмотрели?',"");
   }
 }
+start();
 
 let personalMovieDB = {
     count:numberOfFilms,
@@ -192,4 +193,12 @@ function detectPersonalLevel(){
         console.log("ошибка");
     }
 }
+
+function showMyDB(hidden) {
+if (!hidden){
+    console.log("not base");
+}
+} 
+
 detectPersonalLevel();
+console.log(personalMovieDB);
