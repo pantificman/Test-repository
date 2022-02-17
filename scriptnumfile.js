@@ -148,7 +148,7 @@ genres
 
 P.S. Функции вызывать не обязательно*/
 
-let numberOfFilms;
+/* let numberOfFilms;
 
 function start(){
     numberOfFilms = prompt('Сколько фильмов вы уже посмотрели?',"");
@@ -201,4 +201,15 @@ if (!hidden){
 } 
 
 detectPersonalLevel();
-console.log(personalMovieDB);
+console.log(personalMovieDB); */
+
+function learnJS(lang , callback) {
+    console.log(`Я учу: ${lang}`);
+    callback();
+}
+
+function done(){
+    console.log("Я прошел этот урок");
+}
+
+learnJS("Java Script", done);
